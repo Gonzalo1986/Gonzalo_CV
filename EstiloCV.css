@@ -1,0 +1,113 @@
+h2,
+h3 {
+    color: rgb(22, 209, 209);
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-style: bold;
+    font-style: italic;
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: gray 1px solid;
+    margin: 0px;
+    border-top: 0px;
+    padding-top: 5px;
+    background-color: rgb(22, 209, 209);
+}
+h2 {
+    font-size: 23px;
+    margin: 0%;
+}
+
+img {
+    /* display: block;*/
+    margin: 25px;
+    border: white 1px solid;
+}
+#ContenedorPrincipal {
+    margin: 0px 15%;
+}
+
+#InformacionPersonal {
+    float: left;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(225, 225, 225);
+}
+
+#NombreApellido {
+    border-bottom: 1px gray solid;
+
+    height: 30px;
+    margin: 0%;
+    padding: 10px 0px;
+}
+
+#PerfilExperienciaFromación {
+    margin-left: 320px;
+    height: 890px;
+}
+
+body {
+    margin-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+    margin: 0px;
+    padding: 5px;
+    border-bottom: rgb(243, 239, 239) 2px solid;
+    border-top: rgb(243, 239, 239) 2px solid;
+    font-size: 18px;
+}
+li {
+    list-style: circle;
+    font-size: small;
+    font-weight: bolder;
+    padding: 5px 2px;
+}
+ul {
+    margin: 3px 10px;
+}
+span {
+    padding-left: 15px;
+    font-weight: lighter;
+    font-size: small;
+}
+
+span > span {
+    padding-left: 0px;
+}
+footer {
+    background-color: rgb(22, 209, 209);
+    height: 35px;
+}
+
+p {
+    font-weight: lighter;
+    font-size: small;
+    text-align: justify;
+}
+p > span {
+    color: rgb(22, 209, 209);
+    padding-left: 0px;
+    font-weight: bold;
+}
+
+ul > ul > li {
+    list-style: square;
+}
+
+label {
+    font-size: small;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#TemaOscuroLabel,
+#TemaOscuroCheck {
+    margin-left: 85%;
+    margin-top: 7px;
+}
