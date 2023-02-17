@@ -27,7 +27,7 @@ img {
     border: white 1px solid;
 }
 #ContenedorPrincipal {
-    margin: 0px 15%;
+    margin: 0px 15% 0px 15%;
 }
 
 #InformacionPersonal {
@@ -35,6 +35,7 @@ img {
     width: 300px;
     margin-top: 10px;
     background-color: rgb(225, 225, 225);
+    margin-bottom: 10px;
 }
 
 #NombreApellido {
@@ -47,7 +48,11 @@ img {
 
 #PerfilExperienciaFromación {
     margin-left: 320px;
-    height: 890px;
+
+    /*height: 890px;*/
+    margin-bottom: 0px;
+    border: 0px;
+    padding-bottom: 0px;
 }
 
 body {
@@ -82,6 +87,7 @@ span > span {
 footer {
     background-color: rgb(22, 209, 209);
     height: 35px;
+    width: 100%;
 }
 
 p {
@@ -110,4 +116,28 @@ label {
 #TemaOscuroCheck {
     margin-left: 85%;
     margin-top: 7px;
+}
+@media screen and (max-width: 950px) {
+    #ContenedorPrincipal {
+        margin: 0px;
+    }
+    #TemaOscuroLabel,
+    #TemaOscuroCheck {
+        margin: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #ContenedorPrincipal {
+        width: 300px;
+        margin: 0% 25% 0% 25%;
+    }
+
+    #PerfilExperienciaFromación {
+        margin-left: 0;
+    }
+    h2 {
+        font-size: 20px;
+    }
 }
