@@ -60,4 +60,4 @@ function CambiarModo(e) {
             coleccion_ul[i].style.color = "black";
         }
     }
-} // fin cambiarModo - ultimo
+} // fin cambiarModo
