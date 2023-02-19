@@ -113,7 +113,7 @@ label {
 
 #TemaOscuroLabel,
 #TemaOscuroCheck {
-    margin-left: 73%;
+    margin-left: 75%;
     margin-top: 7px;
 }
 @media screen and (max-width: 950px) {
@@ -140,6 +140,12 @@ label {
 
     #PerfilExperienciaFromación {
         margin-left: auto;
+    }
+
+    #TemaOscuroLabel,
+    #TemaOscuroCheck {
+        margin-left: 65%;
+        margin-top: 7px;
     }
 }
 
