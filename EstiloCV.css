@@ -25,6 +25,7 @@ img {
     /* display: block;*/
     margin: 25px;
     border: white 1px solid;
+    border-radius: 8px;
 }
 #ContenedorPrincipal {
     margin: 0px 15% 0px 15%;
