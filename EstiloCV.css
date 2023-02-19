@@ -28,10 +28,10 @@ img {
 }
 #ContenedorPrincipal {
     margin: 0px 15% 0px 15%;
+    display: flex;
 }
 
 #InformacionPersonal {
-    float: left;
     width: 300px;
     margin-top: 10px;
     background-color: rgb(225, 225, 225);
@@ -39,20 +39,19 @@ img {
 }
 
 #NombreApellido {
+    margin: 0px 15% 0px 15%;
     border-bottom: 1px gray solid;
-
     height: 30px;
-    margin: 0%;
     padding: 10px 0px;
 }
 
 #PerfilExperienciaFromación {
-    margin-left: 320px;
-
     /*height: 890px;*/
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     border: 0px;
     padding-bottom: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 body {
@@ -114,30 +113,63 @@ label {
 
 #TemaOscuroLabel,
 #TemaOscuroCheck {
-    margin-left: 85%;
+    margin-left: 73%;
     margin-top: 7px;
 }
 @media screen and (max-width: 950px) {
-    #ContenedorPrincipal {
+    #ContenedorPrincipal,
+    #NombreApellido {
         margin: 0px;
-    }
-    #TemaOscuroLabel,
-    #TemaOscuroCheck {
-        margin: auto;
-        width: 100%;
     }
 }
 
-@media screen and (max-width: 600px) {
-    #ContenedorPrincipal {
-        width: 300px;
-        margin: 0% 25% 0% 25%;
+@media screen and (max-width: 650px) {
+    #ContenedorPrincipal{
+    
+       display:block;
     }
+    #InformacionPersonal{
+        width: auto;
+    }
+    img {
+        display: block;
+        margin-bottom:25px;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top: auto;
+    }
+}
 
-    #PerfilExperienciaFromación {
-        margin-left: 0;
-    }
+    
     h2 {
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    #ContenedorPrincipal,
+    #NombreApellido {
+        margin: 0px 12% 0px 12%;
+    }
+}
+
+@media screen and (max-width: 1256px) {
+    #ContenedorPrincipal,
+    #NombreApellido {
+        margin: 0px 11% 0px 11%;
+    }
+}
+
+@media screen and (max-width: 1225px) {
+    #ContenedorPrincipa,
+    #NombreApellido {
+        margin: 0px 10% 0px 10%;
+    }
+}
+
+@media screen and (max-width: 1195px) {
+    #ContenedorPrincipal,
+    #NombreApellido {
+        margin: 0px 9% 0px 9%;
     }
 }
