@@ -137,10 +137,10 @@ label {
         margin-right: auto;
         margin-top: auto;
     }
-}
 
-h2 {
-    font-size: 20px;
+    #PerfilExperienciaFromación {
+        margin-left: auto;
+    }
 }
 
 @media screen and (max-width: 1360px) {
